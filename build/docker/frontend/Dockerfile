@@ -1,0 +1,6 @@
+ARG IMAGE_NAME=${FRONTEND_IMAGE_NAME} \
+    IMAGE_VERSION=${FRONTEND_IMAGE_VERSION}
+
+FROM ${IMAGE_NAME}:${IMAGE_VERSION}
+
+LABEL maintainer="Nuno Guimarães <myemail@mail.com>"
