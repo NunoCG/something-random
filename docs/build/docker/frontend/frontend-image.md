@@ -1,0 +1,1 @@
+# Frontend docker image documentation
